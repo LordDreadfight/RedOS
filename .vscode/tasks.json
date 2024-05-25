@@ -1,0 +1,16 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the task>s.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "buildRedos",
+            "type": "shell",
+            "command": "./build.sh",
+            "group":{
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
